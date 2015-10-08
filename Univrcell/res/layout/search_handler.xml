@@ -1,0 +1,27 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="horizontal" >
+
+    <AutoCompleteTextView
+        android:id="@+id/etSearch"
+        android:layout_width="0dp"
+        android:layout_height="50dip"
+        android:layout_weight="3.0"
+        android:focusable="true"
+        android:hint="@string/search"
+        android:inputType="textPersonName"
+        android:textColor="@drawable/black" />
+
+    <Button
+        android:id="@+id/bCancel"
+        android:layout_width="0dp"
+        android:layout_height="40dip"
+        android:layout_weight="1.0"
+        android:background="@drawable/btn_blue_clickable"
+        android:text="@string/dialog_button_Cancel"
+        android:textStyle="bold" />
+
+</LinearLayout>

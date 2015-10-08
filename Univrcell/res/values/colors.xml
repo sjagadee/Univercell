@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <drawable name="btnblack">#000000</drawable>
+    <drawable name="verylightgrey">#E0E0E0</drawable>
+    <drawable name="lightgrey">#C0C0C0</drawable>
+    <drawable name="silver">#F2F2F2</drawable>
+    <drawable name="darkgrey">#808080</drawable>
+    <drawable name="homepagerowtextcolor">#464646</drawable>
+    <drawable name="white">#ffffffff</drawable>
+    <drawable name="blue">#FF0000FF</drawable>
+    <drawable name="maroon">#B40000</drawable>
+    <drawable name="green">#7700ff00</drawable>
+    <drawable name="yellow">#77ffff00</drawable>
+    <drawable name="translucent_dark">#22000000</drawable>
+    <drawable name="translucenter_dark">#bf000000</drawable>
+    <drawable name="bright_foreground">#ffffffff</drawable>
+    <drawable name="red_tint">#88FF0000</drawable>
+    <drawable name="blue_tint">#880000FF</drawable>
+    <drawable name="yellow_tint">#88FFFF00</drawable>
+    <drawable name="purple_tint">#88995f86</drawable>
+    <drawable name="orange">#ffffbf00</drawable>
+    <drawable name="orange_tint">#aaffbf00</drawable>
+    <drawable name="magenta_tint">#88ff33cc</drawable>
+    <drawable name="transparent">#0000</drawable>
+    <drawable name="red">#ffBB0000</drawable>
+    <drawable name="headingColor">#ff3C3C3C</drawable>
+    <drawable name="subHeadingColor">#ff636363</drawable>
+    <drawable name="headingShadow">#ffF0F0F0</drawable>
+    <drawable name="frameColor">#bbbbbbbb</drawable>
+    <drawable name="btnGradientStart">#ffCCACAC</drawable>
+    <drawable name="btnGradientEnd">#ffCC0000</drawable>
+    <drawable name="btnGrayGradientStart">#ffe6e7e6</drawable>
+    <drawable name="btnGrayGradientEnd">#ffa6a7a6</drawable>
+    <drawable name="btnBorder">#ffCC0000</drawable>
+    <drawable name="btnGrayBorder">#ffa6a7a6</drawable>
+    <drawable name="black">#ff000000</drawable>
+    <drawable name="btnShadow">#ffCC0000</drawable>
+    <drawable name="list_active">#66000000</drawable>
+    <drawable name="list_pressed">#88000000</drawable>
+    <drawable name="gradient_start">#ccffffff</drawable>
+    <drawable name="gradient_end">#88aaaaaa</drawable>
+    <drawable name="gradient_center">#ccffffff</drawable>
+    <drawable name="headingdrop">#ff2f2f2f</drawable>
+    <drawable name="dialogGradientStart">#cc3c3c3c</drawable>
+    <drawable name="dialogGradientEnd">#bba6a6a6</drawable>
+    <drawable name="dialogTitle">#ffaeaeae</drawable>
+    <drawable name="searchbarbg">#ffd7d7d7</drawable>
+    <drawable name="commonbg_gradientstart">#575757</drawable>
+    <drawable name="commonbg_gradientend">#000000</drawable>
+    <drawable name="cart_border">#43BFC7</drawable>
+    <drawable name="cyan">#4FBBD1</drawable>
+    <drawable name="product_blue">#0080B3</drawable>
+    <drawable name="best_deal">#A81911</drawable>
+    <drawable name="share_dialog_bg">#252525</drawable>
+    <drawable name="share_cross_btn">#F2F2F2</drawable>
+    <drawable name="share_what_do">#888888</drawable>
+    <drawable name="share_cursor_color">#44B5F4</drawable>
+    
+    <color name="result_view">#b0000000</color>
+    <color name="transparent">#00000000</color>
+    <color name="viewfinder_frame">#ff000000</color>
+    <color name="viewfinder_laser">#ffff0000</color>
+    <color name="viewfinder_mask">#60000000</color>
+
+    <drawable name="titlecolor">#555555</drawable>
+
+    <color name="possible_result_points">#c0ffff00</color>
+    <!-- A light Holo shade of blue -->
+    <color name="holo_blue_light">#ff33b5e5</color>
+    <!-- A light Holo shade of green -->
+    <color name="holo_green_light">#ff99cc00</color>
+    <!-- A light Holo shade of red -->
+    <color name="holo_red_light">#ffff4444</color>
+    <!-- A dark Holo shade of blue -->
+    <color name="holo_blue_dark">#ff0099cc</color>
+    <!-- A dark Holo shade of green -->
+    <color name="holo_green_dark">#ff669900</color>
+    <!-- A dark Holo shade of red -->
+    <color name="holo_red_dark">#ffcc0000</color>
+    <!-- A Holo shade of purple -->
+    <color name="holo_purple">#ffaa66cc</color>
+    <!-- A light Holo shade of orange -->
+    <color name="holo_orange_light">#ffffbb33</color>
+    <!-- A dark Holo shade of orange -->
+    <color name="holo_orange_dark">#ffff8800</color>
+    <!-- A really bright Holo shade of blue -->
+    <color name="holo_blue_bright">#ff00ddff</color>
+    <color name="owncloud_white">#F7F7F7</color>
+
+</resources>

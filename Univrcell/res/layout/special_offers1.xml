@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical"
+    android:padding="0dp" >
+
+    <RelativeLayout
+        android:id="@+id/healderlayout"
+        style="@style/fillWidth"
+        android:layout_height="40dip"
+        android:background="@drawable/header" >
+
+        <TextView
+            android:id="@+id/heading1"
+            style="@style/Headertitle"
+            android:layout_centerInParent="true"
+            android:text="@string/dialog_title_information" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:src="@drawable/univercell_logo" />
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="60dip"
+        android:baselineAligned="false"
+        android:orientation="horizontal"
+        android:paddingLeft="5dip"
+        android:paddingRight="5dip" >
+
+        <AutoCompleteTextView
+            android:id="@+id/etSearch"
+            android:layout_width="0dp"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="1"
+            android:drawableLeft="@drawable/search_bar"
+            android:focusable="true"
+            android:hint="@string/search"
+            android:imeOptions="actionDone"
+            android:inputType="textAutoCorrect"
+            android:textColor="@drawable/black" />
+
+        <Spinner
+            android:id="@+id/sFilter"
+            android:layout_width="0dp"
+            android:layout_height="50dip"
+            android:layout_gravity="center_vertical"
+            android:layout_weight="2.4"
+            android:entries="@array/filter_array"
+            android:visibility="gone" />
+
+        <Button
+            android:id="@+id/bGo"
+            android:layout_width="60dip"
+            android:layout_height="45dip"
+            android:layout_gravity="center_vertical"
+            android:layout_marginBottom="2dip"
+            android:background="@drawable/btn_blue_clickable"
+            android:text="Go"
+            android:textColor="@drawable/white"
+            android:textSize="20sp"
+            android:textStyle="bold" />
+    </LinearLayout>
+
+    <ListView
+        android:id="@+id/lvInfoItems"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+    </ListView>
+
+</LinearLayout>

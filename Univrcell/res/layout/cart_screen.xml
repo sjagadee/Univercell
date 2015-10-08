@@ -1,0 +1,115 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/white"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/healderlayout"
+        style="@style/fillWidth"
+        android:layout_height="40dip"
+        android:background="@drawable/header" >
+
+        <TextView
+            android:id="@+id/heading1"
+            style="@style/Headertitle"
+            android:layout_centerInParent="true"
+            android:text="@string/cart" />
+    </RelativeLayout>
+
+    <ImageView
+        android:id="@+id/imgLogo"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dip"
+        android:layout_marginTop="10dip"
+        android:src="@drawable/univercell_logo" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal" >
+
+            <Button
+                android:id="@+id/bTabEmail"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="0.8"
+                android:background="@drawable/cart_blue_border"
+                android:padding="0dp"
+                android:text="@string/email" />
+
+            <Button
+                android:id="@+id/bTabAddress"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.1"
+                android:background="@drawable/cart_white_border"
+                android:padding="0dp"
+                android:text="@string/address1" />
+
+            <Button
+                android:id="@+id/bTabSummary"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.2"
+                android:background="@drawable/cart_white_border"
+                android:padding="0dp"
+                android:text="@string/summary" />
+
+            <Button
+                android:id="@+id/bTabPayment"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_weight="1.2"
+                android:background="@drawable/cart_white_border"
+                android:padding="0dp"
+                android:text="@string/payment" />
+        </LinearLayout>
+
+        <Button
+            android:layout_width="fill_parent"
+            android:layout_height="4dp"
+            android:background="@drawable/cart_border" />
+
+        <ViewFlipper
+            android:id="@+id/viewFlipper"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_gravity="center"
+            android:addStatesFromChildren="true" >
+
+            <include
+                android:id="@+id/cart_email"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/cart_email_address" />
+
+            <include
+                android:id="@+id/cart_shipping"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/cart_shipping_address" />
+
+            <include
+                android:id="@+id/cart_summary"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/cart_summary" />
+
+            <include
+                android:id="@+id/cart_payment"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                layout="@layout/cart_payment" />
+        </ViewFlipper>
+    </LinearLayout>
+
+</LinearLayout>

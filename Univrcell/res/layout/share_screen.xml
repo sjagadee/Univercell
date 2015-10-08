@@ -1,0 +1,247 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="wrap_content"
+    android:layout_height="fill_parent"
+    android:background="@drawable/transparent"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="fill_parent"
+                android:background="@drawable/share_dialog_bg"
+                android:orientation="vertical" >
+
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+
+                    <Button
+                        android:id="@+id/bCancelSharing"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignParentRight="true"
+                        android:layout_centerVertical="true"
+                        android:layout_marginLeft="10dip"
+                        android:background="@drawable/btn_share_cross" />
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="fill_parent"
+                    android:background="@drawable/share_dialog_bg"
+                    android:orientation="vertical" >
+
+                    <RelativeLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:paddingBottom="10dip"
+                        android:paddingLeft="10dip"
+                        android:paddingRight="10dip" >
+
+                        <ImageView
+                            android:id="@+id/prodImage"
+                            android:layout_width="30dip"
+                            android:layout_height="50dip"
+                            android:layout_alignParentLeft="true"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dip" >
+                        </ImageView>
+
+                        <TextView
+                            android:id="@+id/mobileNameTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_centerVertical="true"
+                            android:layout_marginLeft="10dip"
+                            android:layout_toLeftOf="@+id/bPost"
+                            android:layout_toRightOf="@+id/prodImage"
+                            android:text="@string/highlight"
+                            android:textColor="@drawable/share_cross_btn"
+                            android:textSize="18sp"
+                            android:textStyle="bold" />
+
+                        <Button
+                            android:id="@+id/bPost"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_alignParentRight="true"
+                            android:layout_centerVertical="true"
+                            android:background="@drawable/btn_share_post" />
+                    </RelativeLayout>
+
+                    <ImageView
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:background="@drawable/share_outline" >
+                    </ImageView>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:padding="10dp" >
+
+                        <RelativeLayout
+                            android:layout_width="51dip"
+                            android:layout_height="51dip"
+                            android:background="@drawable/circular_image_border" >
+
+                            <app.nichepro.util.RoundedImageView
+                                android:id="@+id/profileImgView"
+                                android:layout_width="50dip"
+                                android:layout_height="50dip"
+                                android:layout_centerInParent="true"
+                                android:src="@drawable/man" />
+                        </RelativeLayout>
+
+                        <TextView
+                            android:id="@+id/loginTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dip"
+                            android:text="@string/what_do_you_think"
+                            android:textColor="@drawable/share_what_do"
+                            android:textSize="16sp" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="vertical"
+                        android:padding="5dp" >
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_margin="20dip"
+                            android:text="@string/share_slogan_univercell"
+                            android:textColor="@drawable/white"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <EditText
+                            android:id="@+id/etPost"
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginTop="10dip"
+                            android:background="@drawable/transparent"
+                            android:cursorVisible="true"
+                            android:ems="10"
+                            android:imeOptions="actionDone"
+                            android:textColor="@drawable/white"
+                            android:textCursorDrawable="@drawable/share_cursor_color" >
+
+                            <requestFocus />
+                        </EditText>
+
+                        <ImageView
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:layout_marginTop="10dip"
+                            android:background="@drawable/share_bottom_outline" >
+                        </ImageView>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:orientation="horizontal"
+                        android:paddingTop="10dp" >
+
+                        <TextView
+                            android:id="@+id/loginTitle"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center_vertical"
+                            android:layout_marginLeft="20dip"
+                            android:text="@string/also_share"
+                            android:textColor="@drawable/share_what_do"
+                            android:textSize="16sp" />
+
+                        <ToggleButton
+                            android:id="@+id/bFBShare"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dip"
+                            android:background="@drawable/facebook_clickable"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textOff=""
+                            android:textOn="" />
+
+                        <ToggleButton
+                            android:id="@+id/bGmailShare"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_gravity="center"
+                            android:layout_marginLeft="10dip"
+                            android:background="@drawable/google_clickable"
+                            android:focusable="false"
+                            android:focusableInTouchMode="false"
+                            android:textOff=""
+                            android:textOn="" />
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:padding="10dip" >
+
+                        <LinearLayout
+                            android:layout_width="fill_parent"
+                            android:layout_height="wrap_content"
+                            android:background="@drawable/grey_border"
+                            android:orientation="horizontal"
+                            android:padding="2dip" >
+
+                            <LinearLayout
+                                android:id="@+id/bShareAll"
+                                android:layout_width="fill_parent"
+                                android:layout_height="wrap_content"
+                                android:background="@drawable/share_dialog_bg"
+                                android:orientation="horizontal" >
+
+                                <Button
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center"
+                                    android:layout_marginBottom="10dip"
+                                    android:layout_marginLeft="10dip"
+                                    android:layout_marginTop="10dip"
+                                    android:background="@drawable/share_btn"
+                                    android:textSize="14sp"
+                                    android:textStyle="bold" />
+
+                                <TextView
+                                    android:id="@+id/loginTitle"
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+                                    android:layout_gravity="center_vertical"
+                                    android:layout_marginBottom="10dip"
+                                    android:layout_marginLeft="20dip"
+                                    android:layout_marginTop="10dip"
+                                    android:text="@string/share_to_other_apps"
+                                    android:textColor="@drawable/share_what_do"
+                                    android:textSize="20sp" />
+                            </LinearLayout>
+                        </LinearLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>

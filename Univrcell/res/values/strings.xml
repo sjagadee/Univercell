@@ -1,0 +1,284 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="tech_title">Tech Support Specialty Assistance is given on the following by The Mobile Expert...</string>
+    <string name="discription">Description *</string>
+    <string name="confirm">Confirm</string>
+    <string name="company_name">Company Name *</string>
+    <string name="bulk_order">Bulk Order</string>
+    <string name="progress_dialog_title">Information</string>
+    <string name="progress_dialog_message">Loading please wait...</string>
+    <string name="app_name">Univercell</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="menu_settings">Settings</string>
+    <string name="home">Home</string>
+    <string name="search">Univercell.in</string>
+    <string name="go">Go</string>
+    <string name="link">http://www.univercell.in/control/insuranceterms</string>
+    <string name="more_details">For More Details Please Logon to:</string>
+    <string name="first_retail">The First Mobile Retailer To Implement Accidental Damage And Theft Insurance For Your Mobile</string>
+    <string name="coverage">COVERAGE:</string>
+    <string name="coupon_code">Coupon Code</string>
+    <string name="apply">Apply</string>
+    <string name="guest">Guest</string>
+    <string name="field_should_not_empty">UserName and Password should not be empty</string>
+    <string name="empty_user">Username is blank!</string>
+    <string name="empty_pwd">Password is blank!</string>
+    <string name="discount">Discount:</string>
+    <string name="location">Location</string>
+    <string name="mobile">Mobile</string>
+    <string name="service_center">Service Centers</string>
+    <string name="buy">Cart</string>
+    <string name="signin_with_google">Login With Gmail</string>
+    <string name="key_features">Key Features</string>
+    <string name="product_detail">Product Detail</string>
+    <string name="special_offer">Special Offers</string>
+    <string name="value_added_services">Value Added Services</string>
+    <string name="under_construction">Under Construction!</string>
+    <string name="dialog_button_title">Terms &amp; Conditions</string>
+    <string name="dialog_button_Ok">OK</string>
+    <string name="dialog_button_Confirm">Confirm</string>
+    <string name="dialog_button_Cancel">Cancel</string>
+    <string name="dialog_title_information">Information</string>
+    <string name="dialog_title_error">Error</string>
+    <string name="dialog_title_warning">Warning</string>
+    <string name="server_error">Server returned an error</string>
+    <string name="network_err_msg">Network error</string>
+    <string name="category_list">Category list</string>
+    <string name="photo_contest">Photo contest</string>
+    <string name="mobile_insurance">Mobile Insurance</string>
+    <string name="sync_contact">Sync contact</string>
+    <string name="account">Account</string>
+    <string name="cart">Shopping Cart</string>
+    <string name="store_locator">Store Locator</string>
+    <string name="map_view">Map</string>
+    <string name="list_view">List</string>
+    <string name="continue_as_guest">Continue as guest</string>
+    <string name="continue_as_registerd_user">Continue as registered user</string>
+    <string name="email_required">Email (required)</string>
+    <string name="enter_email">Enter email address</string>
+    <string name="email">Email</string>
+    <string name="email_star">Email *</string>
+    <string name="summary">Summary</string>
+    <string name="payment">Payment</string>
+    <string name="full_name">Full Name *</string>
+    <string name="address1">Address</string>
+    <string name="address">Address *</string>
+    <string name="landmark">Landmark</string>
+    <string name="city">City *</string>
+    <string name="state">State *</string>
+    <string name="pincode">Pincode *</string>
+    <string name="phone_number">Mobile Number *</string>
+    <string name="item">Item:</string>
+    <string name="price">Price:</string>
+    <string name="pre_book">Pre-Booking:</string>
+    <string name="expected_price">Expected Price:</string>
+    <string name="offer_price">Offer Price:</string>
+    <string name="shipping_charges">Shipping Charges:</string>
+    <string name="amount_payable">Amount Payable:</string>
+    <string name="shipping_address">Shipping Address:</string>
+    <string name="title">Title:</string>
+    <string name="delivery_time">Delivery Time:</string>
+    <string name="select_payment_method">Select Payment Method</string>
+    <string name="place_order">Place Order</string>
+    <string name="credit_card">Credit Card</string>
+    <string name="debit_card">Debit Card</string>
+    <string name="order_now">Order Now</string>
+    <string name="continue1">Continue Shopping</string>
+    <string name="continue_checkout">Continue To Checkout</string>
+    <string name="total_amount">Total Amount:</string>
+    <string name="we_accept">We Accept:</string>
+    <string name="card_number">Card Number</string>
+    <string name="expiry_date">Expiry Date:</string>
+    <string name="cvv_number">CVV Number:</string>
+    <string name="pay_now">Pay Now</string>
+    <string name="MMYY">MMYY</string>
+    <string name="name">Name</string>
+    <string name="name1">Name *</string>
+    <string name="welcome">Welcome</string>
+    <string name="login_here">Login Here</string>
+    <string name="username">User Name</string>
+    <string name="password">Password *</string>
+    <string name="password1">Password</string>
+    <string name="login">Login</string>
+    <string name="invalid_pin">Invalid Pincode</string>
+    <string name="buy_now">Buy Now</string>
+    <string name="forgot_password">Forgot Password</string>
+    <string name="register">Register</string>
+    <string name="connect_with">Connect With:</string>
+    <string name="new_details">Warranty: This product has 1 Year Warranty from the company. Free Transit is available for 2 years.</string>
+    <string name="filter">Filter</string>
+    <string name="bullet">\u2022</string>
+    <string name="app_exit_msg">Exit App!</string>
+    <string name="open_browser">It will launch browser, do you wish to continue!</string>
+    <string name="exit">Exit</string>
+    <string name="continue2">Continue</string>
+    <string name="update">Update</string>
+    <string name="upload">Upload</string>
+    <string name="enter_caption">Enter caption here</string>
+    <string name="cancel">Cancel</string>
+    <string name="no_result_found">No result found!!!</string>
+    <string name="load_more_products">Load more products</string>
+    <string name="invalid_email_length">Invalid Email Length</string>
+    <string name="fill_all_details">Fill All Details</string>
+    <string name="invalid_email">Invalid Email</string>
+    <string name="invalid_password">Invalid Password</string>
+    <string name="password_cpassowrd_should_be_same">Password and Confirm Password should be same</string>
+    <string name="register_here">Register Here</string>
+    <string name="send">Send</string>
+    <string name="confirm_password">Confirm Password *</string>
+    <string name="skip">Skip</string>
+    <string name="ph_no">Mobile Number</string>
+    <string name="zip_code">Pin Code</string>
+    <string name="save_continue">Save and Continue</string>
+    <string name="rs">\u20A8</string>
+    <string name="search_compare_buy">Search, Compare &amp; buy</string>
+    <string name="shop">Shop</string>
+    <string name="street">Street *</string>
+    <string name="area">Area *</string>
+    <string name="country">Country *</string>
+    <string name="callbtn">Call</string>
+    <string name="calling">Warning</string>
+    <string name="callingMessage">You will leave this app and initiate a call. Is
+		this Okay?</string>
+    <string name="yesbtn">Yes</string>
+    <string name="unit_price">Unit Price</string>
+    <string name="adjustments">Damage and Theft Insurance</string>
+    <string name="no_insurance">No Insurance for This Product</string>
+    <string name="item_total">Item Total</string>
+    <string name="quantity">Quantity:</string>
+    <string name="nobtn">No</string>
+    <string name="edit_profile">Edit Profile</string>
+    <string name="logout">Logout</string>
+    <string name="grand_total">Grand Total:</string>
+    <string name="invalid_phone">Invalid Mobile Number</string>
+    <string name="checkout">Proceed to checkout</string>
+    <string name="sold_out">SOLD OUT</string>
+    <string name="empty_search">Enter any keyword to search</string>
+    <string name="home">Home</string>
+    <string name="profileEdit">Edit Profile</string>
+    <string name="image_view">Product images</string>
+    <string name="disclaimer">We can not guarantee that the information on this page is 100% correct. Whilst every effort has been made to ensure that the information on this site is as accurate as possible, UniverCell cannot be held responsible for any inaccuracies or consequences arising out of the use of this site. Well, what does this mean? When you buy a , check with the manufacturer/website that the specifications of the phone match your expectations. Best Deals: The price quoted in the Website/Best deals section is only for Online purchases. Price shown on website are inclusive of all taxes . Transaction charges may apply. EMI Conversion only for Rs.3000 and above. Shipment Location Availability Depends Upon The Logistics Partner.</string>
+    <string name="add_insurance">Add insurance </string>
+    <string name="text_insurance"> In case of Settlement, the Sum Insured or the Market Value at the time of loss whichever is less shall be taken. Policy Excess will be 0.5% of Sum Insured subject to a minimum of Rs.100/-. In case of Total Damage due to Road Accident, the necessary documents like FIR, Original Invoice, Estimate of Loss and Final Bill to be submitted. For all settled claims, a Credit Note will be issued in the Name of the Insured for the Settled Value which can be redeemed in any Univercell Showroom </string>
+    <string name="remove_insurance">Remove insurance</string>
+    <string name="select_photo">Select photo</string>
+    <string name="gmail_account">Gmail Account</string>
+    <string name="gmail_login">Login with Gmail</string>
+    <string name="tech_support">Tech support</string>
+    <string name="mobile_insurance">Mobile Insurance</string>
+    <string name="highlight">Highlight</string>
+    <string name="what_do_you_think">What do you think?</string>
+    <string name="share_slogan_univercell">Awesome, can\&#39;t wait to get one of these</string>
+    <string name="also_share">ALSO SHARE ON</string>
+    <string name="share_to_other_apps">Share to other apps</string>
+    <string name="accept_the_terms">Accept the terms,</string>
+    <string name="terms_and_condition">Terms and Conditions</string>
+    <string name="terms_and_condition_in_cart">Logistics Terms and Conditions</string>
+
+    <string-array name="state_array">
+        <item>Andhra Pradesh</item>
+        <item>Andaman and Nicobar Islands</item>
+        <item>Arunachal Pradesh</item>
+        <item>Assam</item>
+        <item>Bihar</item>
+        <item>Chandigarh</item>
+        <item>Chhattisgarh</item>
+        <item>Dadar and Nagar Haveli</item>
+        <item>Daman and Diu</item>
+        <item>Goa</item>
+        <item>Gujarat</item>
+        <item>Haryana</item>
+        <item>Himachal Pradesh</item>
+        <item>Jammu and Kashmir</item>
+        <item>Jharkhand</item>
+        <item>Karnataka</item>
+        <item>Kerala</item>
+        <item>Lakshadweep</item>
+        <item>Madya Pradesh</item>
+        <item>Maharashtra</item>
+        <item>Manipur</item>
+        <item>Meghalaya</item>
+        <item>Mizoram</item>
+        <item>Nagaland</item>
+        <item>New Delhi</item>
+        <item>Orissa</item>
+        <item>Pondicherry</item>
+        <item>Punjab</item>
+        <item>Rajasthan</item>
+        <item>Sikkim</item>
+        <item>Tamil Nadu</item>
+        <item>Tripura</item>
+        <item>Uttar Pradesh</item>
+        <item>Uttaranchal</item>
+        <item>West Bengal</item>
+    </string-array>
+    <string-array name="state_array_code">
+        <item>IN-AP</item>
+        <item>IN-AN</item>
+        <item>IN-AR</item>
+        <item>IN-AS</item>
+        <item>IN-BR</item>
+        <item>IN-CH</item>
+        <item>IN-CT</item>
+        <item>IN-DN</item>
+        <item>IN-DD</item>
+        <item>IN-GA</item>
+        <item>IN-GJ</item>
+        <item>IN-HR</item>
+        <item>IN-HP</item>
+        <item>IN-JK</item>
+        <item>IN-JH</item>
+        <item>IN-KA</item>
+        <item>IN-KL</item>
+        <item>IN-LD</item>
+        <item>IN-MP</item>
+        <item>IN-MH</item>
+        <item>IN-MN</item>
+        <item>IN-ML</item>
+        <item>IN-MZ</item>
+        <item>IN-NL</item>
+        <item>IN-ND</item>
+        <item>IN-OR</item>
+        <item>IN-PY</item>
+        <item>IN-PB</item>
+        <item>IN-RJ</item>
+        <item>IN-SK</item>
+        <item>IN-TN</item>
+        <item>IN-TR</item>
+        <item>IN-UP</item>
+        <item>IN-UT</item>
+        <item>IN-WB</item>
+    </string-array>
+    <string-array name="country_array">
+        <item>India</item>
+    </string-array>
+    <string-array name="filter_array">
+        <item>By Model</item>
+        <item>By Brand</item>
+    </string-array>
+    <string-array name="filter_value_array">
+        <item>Name</item>
+        <item>Feature</item>
+    </string-array>
+
+    <string name="app_id">153347148170839</string>
+
+    <string-array name="tech_support_array">
+        <item>Contact \u0026 Data Transfer/Synchronization</item>
+        <item>Product Demonstration</item>
+        <item>Tips\u0026 Advice on Phone Care</item>
+        <item>Operating System (OS) Software Update / Flash</item>
+        <item>Applications Instillation</item>
+        <item>Email or Facebook Configurations</item>
+        <item>All above mentioned services are done at very less charges at your door step</item>
+        <item>Please call +919840398888, +919840098888</item>
+    </string-array>
+    <string-array name="mobile_insurance_array">
+        <item>Fire</item>
+        <item>Riot, Strike, Terrorist activity</item>
+        <item>Theft by Unknown Person</item>
+        <item>Loss or Total Damage arising out of<b> Road Accidents only</b></item>
+    </string-array>
+
+</resources>

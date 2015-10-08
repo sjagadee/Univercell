@@ -1,0 +1,288 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:panel="http://schemas.android.com/apk/res/app.nichepro.activities.mcommerce"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent" >
+
+    <app.nichepro.activities.mcommerce.Panel
+        android:id="@+id/topPanel"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:orientation="vertical"
+        panel:animationDuration="1000"
+        panel:closedHandle="@drawable/down"
+        panel:linearFlying="true"
+        panel:openedHandle="@drawable/up"
+        panel:position="top" >
+
+        <LinearLayout
+            android:id="@id/panelContent"
+            android:layout_width="fill_parent"
+            android:layout_height="0dp"
+            android:layout_weight="1.0"
+            android:background="@drawable/skyblue_border"
+            android:orientation="vertical"
+            android:padding="0dp" >
+
+            <ScrollView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content" >
+
+                <LinearLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:baselineAligned="false"
+                    android:orientation="vertical" >
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="30dip"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bAccount"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_account_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bAccount"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center_horizontal"
+                                android:text="@string/account"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:id="@+id/info"
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bBuy"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_buy_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bBuy"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center_horizontal"
+                                android:text="@string/buy"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bShop"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_shop_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bShop"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center_horizontal"
+                                android:text="@string/shop"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dip"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bBulkOrder"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_bulk_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bBulkOrder"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/bulk_order"
+                                android:gravity="center_horizontal"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bTechSupport"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_tech_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bTechSupport"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/tech_support"
+                                android:textAlignment="center"
+                                android:gravity="center_horizontal"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bStoreLocator"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_locator_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bStoreLocator"
+                                android:layout_centerHorizontal="true"
+                                android:gravity="center_horizontal"
+                                android:text="@string/store_locator"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </LinearLayout>
+
+                    <LinearLayout
+                        android:layout_width="fill_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dip"
+                        android:baselineAligned="false"
+                        android:orientation="horizontal" >
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bSyncContact"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_sync_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bSyncContact"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/sync_contact"
+                                android:gravity="center_horizontal"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bPhotoContest"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_photo_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bPhotoContest"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/photo_contest"
+                                android:gravity="center_horizontal"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                        
+                        <RelativeLayout
+                            android:layout_width="0dp"
+                            android:layout_height="wrap_content"
+                            android:layout_weight="1.0" >
+
+                            <Button
+                                android:id="@+id/bMobileInsurance"
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_centerHorizontal="true"
+                                android:background="@drawable/btn_mobile_selector" />
+
+                            <TextView
+                                android:layout_width="wrap_content"
+                                android:layout_height="wrap_content"
+                                android:layout_below="@+id/bMobileInsurance"
+                                android:layout_centerHorizontal="true"
+                                android:text="@string/mobile_insurance"
+                                android:gravity="center_horizontal"
+                                android:textAlignment="center"
+                                android:textSize="14sp"
+                                android:textStyle="bold" />
+                        </RelativeLayout>
+                    </LinearLayout>
+                </LinearLayout>
+            </ScrollView>
+        </LinearLayout>
+
+        <Button
+            android:id="@id/panelHandle"
+            android:layout_width="fill_parent"
+            android:layout_height="33dip"
+            android:background="@drawable/down" />
+    </app.nichepro.activities.mcommerce.Panel>
+
+</FrameLayout>

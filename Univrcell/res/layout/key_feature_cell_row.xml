@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<TableRow xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:background="@drawable/white_border"
+    android:orientation="horizontal"
+    android:padding="1dp" >
+
+    <TextView
+        android:id="@+id/product_key"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="5dip"
+        android:layout_weight="1.0"
+        android:text="@string/bullet"
+        android:textSize="25sp"
+        android:textStyle="bold" >
+    </TextView>
+
+    <TextView
+        android:id="@+id/product_value"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_vertical"
+        android:layout_marginLeft="2dip"
+        android:layout_weight="20.0"
+        android:text="adfasdfa;dfskj;" >
+    </TextView>
+
+</TableRow>

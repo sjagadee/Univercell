@@ -1,0 +1,131 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical" >
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical" >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/full_name"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etFullName"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/full_name"
+                android:inputType="textPersonName"
+                android:maxLength="30" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/address"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/address" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/landmark"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etLandMark"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/landmark"
+                android:maxLength="30" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/city"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etCity"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:ems="10"
+                android:hint="@string/city"
+                android:maxLength="30" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/state"
+                android:textSize="15sp" />
+
+            <Spinner
+                android:id="@+id/sState"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:entries="@array/state_array" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/pincode"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etPincode"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:digits="1234567890"
+                android:ems="10"
+                android:hint="@string/pincode"
+                android:inputType="number"
+                android:maxLength="6" />
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="@string/phone_number"
+                android:textSize="15sp" />
+
+            <EditText
+                android:id="@+id/etPhonenumber"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:digits="1234567890"
+                android:ems="10"
+                android:hint="@string/phone_number"
+                android:inputType="phone"
+                android:maxLength="10" />
+
+            <Button
+                android:id="@+id/bContinueAddress"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:layout_marginBottom="10dip"
+                android:layout_marginLeft="10dip"
+                android:layout_marginRight="10dip"
+                android:layout_marginTop="20dip"
+                android:background="@drawable/btn_blue_clickable"
+                android:text="@string/continue_checkout"
+                android:textStyle="bold" />
+        </LinearLayout>
+    </ScrollView>
+
+</LinearLayout>
